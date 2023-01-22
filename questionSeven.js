@@ -1,9 +1,8 @@
-var loadText = document.querySelector("#txt-load");
-var btnLoad = document.querySelector("#btn-load");
+var textLoad = document.querySelector('#txt-load');
+var btnLoad = document.querySelector('#btn-load');
 
 
-btnLoad.addEventListener("click",function(){
-    // loadText.style.color = "white";
-    // loadText.innerHTML =  "";
-    loadText.style.display = "none";
+btnLoad.addEventListener('click',function(){
+    // textLoad.style.display = "none";
+    textLoad.style.color = "white";
 })
