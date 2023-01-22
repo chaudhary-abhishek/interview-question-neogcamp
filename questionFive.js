@@ -1,17 +1,24 @@
-var text = document.querySelector("#txt");
+var inp = document.querySelector("#inp")
+var inpText = document.querySelector("#inp-txt");
 var red = document.querySelector("#red");
 var green = document.querySelector("#green");
 var blue = document.querySelector("#blue");
 
-red.addEventListener("click",function(){
-    text.style.color = "red";
+
+inp.addEventListener('change',function(){
+    inpText.innerHTML = inp.value;
 })
 
-green.addEventListener("click",function(){
-    text.style.color = "green";
+red.addEventListener('click',function(){
+    inpText.style.color = "red";
 })
 
-blue.addEventListener("click",function(){
-    text.style.color = "blue";
+green.addEventListener('click',function(){
+    inpText.style.color = "green";
 })
+
+blue.addEventListener('click',function(){
+    inpText.style.color = "blue";
+})
+
 
