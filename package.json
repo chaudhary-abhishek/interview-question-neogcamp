@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "node-fetch": "^2.6.8",
     "readfilesync": "^1.1.5",
     "readline-sync": "^1.4.10"
   }
