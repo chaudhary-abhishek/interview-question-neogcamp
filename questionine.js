@@ -14,6 +14,6 @@ function errorHandler(e){
 }
 
 inpText.addEventListener('change',function Urlfetch(){
-    fetch(urlGenerator(inpText.value)).then(response=>response.json()).then(jsonResponse=>textArea.value=jsonResponse.contents.translated)
+    fetch(urlGenerator(inpText.value)).then(response=>response.json()).then(jsonResponse=>textArea.value=jsonResponse.contents.translated+" text by Abhsihek")
     .catch(errorHandler);
 })
