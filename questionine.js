@@ -1,7 +1,7 @@
 
 var inpText = document.querySelector('#inp-txt');
 var textArea = document.querySelector('#txt-area');
-var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.jso";
+var url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function urlGenerator(text){
     return url+"?text="+text;
