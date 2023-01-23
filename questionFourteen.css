@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+:root{
+    --primary : #3b82f6;
+    --secondary : #525252;
+}
+body{
+    font-family: 'Explora', cursive;
+}
+
+#txt-primary{
+    color: var(--primary);
+}
+#txt-secondary{
+    color: var(--secondary);
+}
+   
+#btn-primary{
+color: var(--primary);
+}
+
+#btn-secondary{
+color: var(--secondary);
+}
+    
+
+
